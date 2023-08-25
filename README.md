@@ -2,7 +2,7 @@
 
 English / [简体中文](./README.zh-CN.md)
 
-Vue Starter Template is an opinionated `Vue 3/Vite/TypeScript/Naive UI/Tailwind CSS` starter template.
+🍀 An opinionated Vue 3/TypeScript starter template.
 
 ## Features
 
