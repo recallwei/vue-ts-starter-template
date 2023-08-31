@@ -1,27 +1,44 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["node", "jsdom", "unplugin-icons/types/vue", "naive-ui/volar"],
+    /* Type Checking */
+    /* Modules */
+    /* Emit */
+    /* JavaScript Support */
+    /* Editor Support */
+    /* Interop Constraints */
+    /* Backwards Compatibility */
+    /* Language and Environment */
+    /* Compiler Diagnostics */
+    /* Projects */
+    /* Output Formatting */
+    /* Completeness */
     "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    "moduleResolution": "node",
+    "types": ["jsdom", "unplugin-icons/types/vue", "naive-ui/volar"],
     "strict": true,
     "esModuleInterop": true,
     "jsx": "preserve",
     "sourceMap": true,
-    "skipLibCheck": true,
     "resolveJsonModule": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": true,
     "noImplicitThis": true,
     "isolatedModules": true,
     "composite": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "vite.config.ts"],
-  "exclude": ["dist", "node_modules"]
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

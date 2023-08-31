@@ -32,8 +32,6 @@ export default defineConfig(({ mode }) => {
           {
             'vue-router': ['RouterLink', 'RouterView'],
             '@vueuse/core': ['useToggle', 'useEventListener', 'useDebounceFn'],
-            axios: [['default', 'axios']],
-            dayjs: [['default', 'dayjs']],
             'naive-ui': [
               'useDialog',
               'useMessage',
