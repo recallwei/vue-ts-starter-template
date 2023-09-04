@@ -10,6 +10,10 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "vite.config.ts",
+    "auto-imports.d.ts",
+    "components.d.ts",
+    "env.d.ts",
+    "shims.d.ts",
     ".eslintrc.js"
   ]
 }
