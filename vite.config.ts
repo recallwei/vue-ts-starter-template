@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd())
   const { VITE_PORT } = env as ImportMetaEnv
 
-  const port = parseInt(VITE_PORT, 10)
+  const port = parseInt(VITE_PORT, 10) || 5173
 
   return {
     base: '/',
