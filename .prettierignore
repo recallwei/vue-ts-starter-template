@@ -1,3 +1,4 @@
 .husky
 pnpm-lock.yaml
-@types
+@types/auto-imports.d.ts
+@types/components.d.ts
