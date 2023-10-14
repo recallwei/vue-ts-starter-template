@@ -12,6 +12,7 @@ noopenner
 noreferrer
 nprogress
 Pinia
+preinstall
 recallwei
 rushstack
 tailwindcss
